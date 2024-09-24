@@ -80,7 +80,7 @@ body {
 }
 
 .action .btn {
-    background-color: #86c14a;
+    background-color: #6ad004;
     outline: none;
     border: none;
     padding: 8px 16px;
@@ -99,6 +99,19 @@ body {
 }
 
 .fa-gift:before {
-    color: #86c14a;
+    color: #6ad004;
     font-size: 30px !important;
 }
+
+.banner {
+    max-width: 40%;
+    font-size: 22px;
+}
+
+.banner .banner-header {
+    font-size: 22px;
+    color: #539925;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
