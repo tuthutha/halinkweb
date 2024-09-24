@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'AvoFont';
+    src: url('../fonts/UTM_Avo/UTM\ Avo.ttf') format('woff2');
+}
+
+html {
+    font-family: 'AvoFont', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border-bottom: 1px solid #ccc;
+}
+
+.header {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--height-header);
+    background-color: var(--white-color);
+}
+
+.menu,
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    color: var(--text-color);
+    text-transform: uppercase;
+    margin: 0 8px;
+    position: relative;
+    line-height: var(--height-header);
+}
+
+.menu__item:hover {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.menu__item:hover .sub-menu {
+    display: block;
+}
+
+.menu__item a:hover {
+    color: var(--primary-color);
+}
+
+.sub-menu {
+    display: none;
+    min-width: 264px;
+    position: absolute;
+    top: var(--height-header);
+    padding: 12px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, .12);
+}
+
+.sub-menu li {
+    line-height: 3.6rem;
+    font-weight: 400;
+}
+
+.sub-menu li a:hover {
+    color: var(--primary-color);
+}
+
+.action {
+    display: flex;
+    align-items: center;
+}
+
+.action .btn {
+    background-color: #86c14a;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 999px;
+    margin: 0 4px;
+}
+
+.action .btn a {
+    color: var(--white-color);
+    font-size: 1.8rem;
+}
+
+.action .btn .icon {
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+.fa-gift:before {
+    color: #86c14a;
+    font-size: 30px !important;
+}
