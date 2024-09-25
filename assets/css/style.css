@@ -143,3 +143,17 @@ body {
     background-color: #fe6702;
 }
 
+.content .introduce {
+    margin: 20px auto; 
+    font-size: 1.1em;
+    text-align: center;
+    max-width: 50%; 
+    align-items: center;
+}
+
+.introduce hr {
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 20%;
+    margin: 20px auto; 
+}
