@@ -143,17 +143,27 @@ body {
     background-color: #fe6702;
 }
 
-.content .introduce {
-    margin: 20px auto; 
-    font-size: 1.1em;
+.introduce {
+    margin: 50px auto;
+    max-width: 54%;
     text-align: center;
-    max-width: 50%; 
-    align-items: center;
+}
+
+.introduce h1 {
+    font-size: 1.8em;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.introduce p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 24px 0;
 }
 
 .introduce hr {
     background-color: var(--primary-color);
     height: 2px;
-    width: 20%;
+    width: 14%;
     margin: 20px auto; 
 }
