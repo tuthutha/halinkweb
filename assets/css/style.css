@@ -261,3 +261,14 @@ body {
 .design-img-left {
     left: -28px;
 }
+
+.why_choose_me {
+    background-image: url('https://halinkweb.com/wp-content/uploads/2020/04/office-halink-2.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;     
+    height: 388px;
+    opacity: 0.8;
+    filter: brightness(30%);
+}
+
