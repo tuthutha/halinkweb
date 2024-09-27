@@ -270,5 +270,31 @@ body {
     height: 388px;
     opacity: 0.8;
     filter: brightness(30%);
+    z-index: 1;
+    /* border: 1px solid green; */
+    background-color: rgb(29, 71, 29);
 }
 
+.why_choose_halink {
+    position: relative;
+    top: 40px;
+    z-index: 2; 
+    color: var(--white-color); 
+    text-align: center; 
+}
+
+.why_choose_halink-hr {
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 6%;
+    margin: 30px auto;
+}
+
+.heading_statistical {
+    font-size: 90px;
+    color: #a0c90d;
+}
+
+.text_statistical {
+    font-size: 24px;
+}
