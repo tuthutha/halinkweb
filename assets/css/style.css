@@ -261,3 +261,40 @@ body {
 .design-img-left {
     left: -28px;
 }
+
+.why_choose_me {
+    background-image: url('https://halinkweb.com/wp-content/uploads/2020/04/office-halink-2.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;     
+    height: 388px;
+    opacity: 0.8;
+    filter: brightness(30%);
+    z-index: 1;
+    /* border: 1px solid green; */
+    background-color: rgb(29, 71, 29);
+}
+
+.why_choose_halink {
+    position: relative;
+    top: 40px;
+    z-index: 2; 
+    color: var(--white-color); 
+    text-align: center; 
+}
+
+.why_choose_halink-hr {
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 6%;
+    margin: 30px auto;
+}
+
+.heading_statistical {
+    font-size: 90px;
+    color: #a0c90d;
+}
+
+.text_statistical {
+    font-size: 24px;
+}
