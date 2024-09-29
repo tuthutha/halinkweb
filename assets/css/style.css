@@ -265,6 +265,7 @@ body {
 .familliar_questions {
     text-align: center; 
     font-size: 2rem;
+    margin-top: 48px;
 }
 
 .header_questions {
@@ -304,4 +305,39 @@ body {
     font-size: 13px;
     color: #4F4F4F;
     display: none;
+}
+
+.why_choose_me {
+    background-image: url('https://halinkweb.com/wp-content/uploads/2020/04/office-halink-2.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;     
+    height: 388px;
+    filter: brightness(60%);
+    z-index: 1;
+    background-color: rgb(29, 71, 29);
+}
+
+.why_choose_halink {
+    position: relative;
+    top: 40px;
+    z-index: 2; 
+    color: var(--white-color); 
+    text-align: center; 
+}
+
+.why_choose_halink-hr {
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 6%;
+    margin: 30px auto;
+}
+
+.heading_statistical {
+    font-size: 90px;
+    color: #a0c90d;
+}
+
+.text_statistical {
+    font-size: 24px;
 }
