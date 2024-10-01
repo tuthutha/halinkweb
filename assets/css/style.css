@@ -348,9 +348,10 @@ body {
 }
 
 .widgets-footer {
-    border: 1px solid green;
-    max-width: 80%;
+    line-height: 2;
+    margin: 50px;
 }
+
 .header_footer {
     text-align: center;
     margin-top: 40px;
@@ -389,11 +390,6 @@ body {
 .info-tel {
     color: #34a853;
     font-size: 20px;
-}
-
-.widgets-footer {
-    margin: 50px 50px;
-    line-height: 2;
 }
 
 .bottom_footer {
