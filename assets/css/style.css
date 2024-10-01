@@ -341,3 +341,65 @@ body {
 .text_statistical {
     font-size: 24px;
 }
+
+.footer {
+    color: #8A92A2;
+    background-color: #1C1C1C;
+}
+
+.widgets-footer {
+    border: 1px solid green;
+    max-width: 80%;
+}
+.header_footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    padding: 30px 80px;
+}
+
+.number_footer {
+    font-size: 32px;
+    color: #74b830;
+    margin: 14px 0;
+    font-weight: 700;
+}
+
+.contact {
+    text-align: center;
+}
+
+.icon-footer {
+    border-radius: 50%;
+    background-color: #34a853;
+    color: #fff;
+    padding: 10px;
+}
+
+.info-name {
+    font-weight: 700;
+    font-size: 12px;
+    margin: 6px 0;
+}
+
+.icon-footer:hover {
+    background-color: #fe6702;
+}
+
+.info-tel {
+    color: #34a853;
+    font-size: 20px;
+}
+
+.widgets-footer {
+    margin: 50px 50px;
+    line-height: 2;
+}
+
+.bottom_footer {
+    margin-top: 50px;
+}
+
+.fa-envelope, .fa-volume-control-phone, .item-footer a {
+    color: #8A92A2;
+}
