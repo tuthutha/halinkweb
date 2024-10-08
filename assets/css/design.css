@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'AvoFont';
+    src: url('../fonts/UTM_Avo/UTM\ Avo.ttf') format('woff2');
+}
+
+html {
+    font-family: 'AvoFont', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.slideshow_content {
+    line-height: 1.5;
+    color: #4F4F4F;
+    margin-top: 50px;
+}
+
+.slideshow_heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #4a9005;
+}
+
+.about_menu,
+.slideshow_menu {
+    margin-top: 8px;
+    margin-bottom: 46px;
+}
+
+.about_items, 
+.slideshow_items {
+    font-size: 20px;
+    color: #5a5a5a;
+    font-weight: 300;
+}
+
+.about_items::before,
+.slideshow_items::before {
+    content: "\f046";
+    font-size: 21px;
+    line-height: 1;
+    font-family: FontAwesome;
+    color: #8fc74a;
+    margin-right: 10px;
+}
+
+.slideshow_btn {
+    background-color: var(--button-color);
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 999px;
+    margin: 0 4px;
+}
+
+.slideshow_advise {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.slideshow_btn {
+    padding: 14px 40px 14px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+    background-color: var(--button-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+
+.slideshow_btn:hover {
+    background-color: #fe6702;
+}
+
+.content_wap_img {
+    text-align: center; 
+}
+
+.about_heading,
+.benefit_heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #4a9005;
+    margin: 40px 0;
+}
+
+.benefit_block_items {
+    box-shadow: 0 0 40px rgba(0, 94, 120, .14);
+    border-radius: 22px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 36px;
+    height: 376px;
+}
+
+.block_items_img {
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.number {
+    font-size: 50px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #74b8303d;
+}
+
+.block_items_heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #59960d;
+    margin: 18px 0;
+}
+
+.block_items_text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #56595f;
+    padding: 0 24px 50px 24px;
+    text-align: justify; 
+}
+
+.about_items {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.service_heading {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0;
+    font-weight: 600;
+    color: #7cc429;
+}
+
+.service_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list_img {
+    cursor: pointer;
+    max-width: 100%;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 100%; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.arrow {
+    background-image: url('https://halinkweb.com/wp-content/themes/web24s/dev/enqueue/css/assets/images/arrows.png');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin: 40px 15px 0 24px ;
+    transform: translateY(-50%) rotate(-90deg); 
+}
+
+.list_link {
+    border: 1px solid #7cc429;
+    width: 76%;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: -3px 4px 20px 0 #79af3a33;
+    padding: 20px;
+    padding-right: 150px;
+}
+
+.list_link:hover {
+    color: #7cc429;
+    padding-right: 120px;
+}
+
+.list_header {
+    font-size: 18px;
+}
+
+.service_advise {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.expense_btn, 
+.service_btn {
+    background-color: var(--button-color);
+    border: none; 
+    padding: 14px 40px;
+    border-radius: 999px;
+    margin-top: 50px; 
+    display: flex; 
+    text-align: center; 
+    color: white; 
+    text-decoration: none; 
+    margin-bottom: 50px;
+}
+
+.service_btn:hover {
+    background-color: #fe6702;
+}
+
+.slideshow_advise {
+    font-size: 18px;
+}
+
+.administration {
+    background-color: #f2f7ed;
+    padding: 4px 0 50px 0;
+}
+
+.administration_header {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0;
+    color: #74b830;
+}
+
+.box_administration {
+    padding: 24px;
+    background: #7ec537;
+    height: 164px;
+    position: relative;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+.box_administration_img {
+    margin-bottom: 14px;
+}
+
+.box_administration_header {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.expense {
+   
+}
+
+.faq-cd-section_header,
+.expense_header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #4a9005;
+    margin: 0 0 50px;
+    margin-top: 50px;
+}
+
+.swiper-slides {
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 5px .9375rem 2px #74b8301a;
+    margin: 10px 20px;
+    height: 76px;
+}
+
+.fa-check-circle {
+    color: #74b830;
+    font-size: 24px !important;
+}
+.swiper-slides_header {
+    font-size: 18px;
+    color: #2f5e01;
+    padding-left: 20px;
+}
+
+.phone_number {
+    color: #f60;
+}
+
+.expense_btn {
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.expense_btn:hover {
+    background-color: #fe6702;
+}
+
+.faq-cd-section_list {
+    list-style-position: inside;
+}
+
+.faq-cd-section_items {
+    border: none;
+    padding: 20px 23px 20px 23px;
+    margin-bottom: 20px;
+    border-radius: 14px; 
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0, 111, 68, .14);
+    cursor: pointer;
+}
+
+.faq-cd-section_items:hover {
+    border-left: 4px solid #83c144;
+    color: #83c144;
+}
+
+.halinkweb_support {
+    position: relative;
+    background-image: url("https://halinkweb.com/wp-content/themes/web24s/dev/enqueue/css/assets/images/bg-3.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    height: 420px;
+}
+
+.rocket_img {
+    position: absolute;
+    left: 280px;
+}
+.halinkweb_support-content {
+    position: absolute;
+    background-position: top center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.halinkweb_support-header {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin: 0 0 38px;
+} 
